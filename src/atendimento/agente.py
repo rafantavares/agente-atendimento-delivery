@@ -13,7 +13,9 @@ from dataclasses import dataclass, field
 
 from atendimento.ferramentas import FERRAMENTAS, Sessao, executar
 
-MODELO_PADRAO = "gemini-2.5-flash"
+# Versão fixa (reprodutível). O 2.5 Flash tem só 20 requisições/dia no nível
+# gratuito, pouco para rodar os evals; o 3.5 Flash Lite tem cota bem maior.
+MODELO_PADRAO = "gemini-3.5-flash-lite"
 MAX_PASSOS = 8
 TENTATIVAS = 4
 
