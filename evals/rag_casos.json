@@ -1,0 +1,14 @@
+[
+  {"pergunta": "o motoboy demorou demais, tenho direito a algo?", "secao": "Atraso na entrega"},
+  {"pergunta": "veio sem o refrigerante", "secao": "Item faltando ou errado"},
+  {"pergunta": "mandaram o sabor errado da pizza", "secao": "Item faltando ou errado"},
+  {"pergunta": "o app mostra que chegou mas ninguém entregou aqui", "secao": "Pedido marcado como entregue, mas não recebido"},
+  {"pergunta": "quero desistir da compra", "secao": "Cancelamento"},
+  {"pergunta": "a comida estava gelada", "secao": "Qualidade da comida"},
+  {"pergunta": "passei mal depois de comer", "secao": "Qualidade da comida"},
+  {"pergunta": "quando o estorno aparece na fatura do cartão?", "secao": "Prazo de estorno"},
+  {"pergunta": "quanto tempo dura o cupom?", "secao": "Prazo de estorno"},
+  {"pergunta": "posso ver o pedido do meu vizinho?", "secao": "Privacidade"},
+  {"pergunta": "vocês respondem dúvidas sobre outros assuntos?", "secao": "Escopo do atendimento"},
+  {"pergunta": "a entrega passou 40 minutos do horário", "secao": "Atraso na entrega"}
+]
