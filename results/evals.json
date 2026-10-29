@@ -1,0 +1,15 @@
+{
+  "agente": null,
+  "rag": {
+    "TF-IDF (caracteres)": {
+      "recall@1": 0.667,
+      "recall@2": 0.667,
+      "n": 12
+    },
+    "Embeddings (gemini-embedding-001)": {
+      "recall@1": 0.833,
+      "recall@2": 0.917,
+      "n": 12
+    }
+  }
+}
