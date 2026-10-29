@@ -1,0 +1,59 @@
+{
+  "agora": "2026-10-29T20:00:00",
+  "pedidos": [
+    {
+      "id": "P1001", "cliente_id": "C01", "restaurante": "Cantina da Nona",
+      "itens": [{"nome": "Lasanha à bolonhesa", "qtd": 1, "preco": 48.90}, {"nome": "Refrigerante lata", "qtd": 2, "preco": 7.00}],
+      "taxa_entrega": 8.90, "pagamento": "pix",
+      "status": "entregue", "previsto_para": "2026-10-29T19:00:00", "entregue_em": "2026-10-29T19:45:00"
+    },
+    {
+      "id": "P1002", "cliente_id": "C01", "restaurante": "Sushi Kaze",
+      "itens": [{"nome": "Combinado 30 peças", "qtd": 1, "preco": 119.90}, {"nome": "Temaki salmão", "qtd": 2, "preco": 32.00}],
+      "taxa_entrega": 12.00, "pagamento": "cartao",
+      "status": "entregue", "previsto_para": "2026-10-29T18:30:00", "entregue_em": "2026-10-29T19:50:00"
+    },
+    {
+      "id": "P1003", "cliente_id": "C01", "restaurante": "Burger Lab",
+      "itens": [{"nome": "Smash duplo", "qtd": 2, "preco": 36.00}, {"nome": "Batata frita grande", "qtd": 1, "preco": 22.00}, {"nome": "Milkshake", "qtd": 1, "preco": 19.00}],
+      "taxa_entrega": 6.00, "pagamento": "cartao",
+      "status": "entregue", "previsto_para": "2026-10-29T19:30:00", "entregue_em": "2026-10-29T19:25:00"
+    },
+    {
+      "id": "P1004", "cliente_id": "C01", "restaurante": "Burger Lab",
+      "itens": [{"nome": "Smash simples", "qtd": 1, "preco": 28.00}],
+      "taxa_entrega": 6.00, "pagamento": "pix",
+      "status": "entregue", "previsto_para": "2026-10-27T20:00:00", "entregue_em": "2026-10-27T19:55:00"
+    },
+    {
+      "id": "P1005", "cliente_id": "C01", "restaurante": "Pizzaria Forno a Lenha",
+      "itens": [{"nome": "Pizza grande calabresa", "qtd": 1, "preco": 62.00}],
+      "taxa_entrega": 7.50, "pagamento": "pix",
+      "status": "aguardando_confirmacao", "previsto_para": "2026-10-29T20:50:00", "entregue_em": null
+    },
+    {
+      "id": "P1006", "cliente_id": "C01", "restaurante": "Pizzaria Forno a Lenha",
+      "itens": [{"nome": "Pizza média marguerita", "qtd": 1, "preco": 49.00}],
+      "taxa_entrega": 7.50, "pagamento": "cartao",
+      "status": "em_preparo", "previsto_para": "2026-10-29T20:40:00", "entregue_em": null
+    },
+    {
+      "id": "P1007", "cliente_id": "C01", "restaurante": "Churrascaria Brasa Viva",
+      "itens": [{"nome": "Rodízio para viagem (família)", "qtd": 1, "preco": 189.90}, {"nome": "Farofa especial", "qtd": 1, "preco": 15.00}],
+      "taxa_entrega": 10.00, "pagamento": "cartao",
+      "status": "entregue", "previsto_para": "2026-10-29T19:20:00", "entregue_em": "2026-10-29T19:15:00"
+    },
+    {
+      "id": "P1008", "cliente_id": "C01", "restaurante": "Marmitaria Sabor de Casa",
+      "itens": [{"nome": "Marmita frango grelhado", "qtd": 1, "preco": 26.90}],
+      "taxa_entrega": 5.00, "pagamento": "pix",
+      "status": "a_caminho", "previsto_para": "2026-10-29T19:20:00", "entregue_em": null
+    },
+    {
+      "id": "P2001", "cliente_id": "C02", "restaurante": "Sushi Kaze",
+      "itens": [{"nome": "Hot roll", "qtd": 2, "preco": 29.90}],
+      "taxa_entrega": 12.00, "pagamento": "cartao",
+      "status": "entregue", "previsto_para": "2026-10-29T19:00:00", "entregue_em": "2026-10-29T19:10:00"
+    }
+  ]
+}
