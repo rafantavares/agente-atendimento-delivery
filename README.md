@@ -60,8 +60,22 @@ flowchart LR
 
 ### Agente
 
-*Pendente:* os 16 cenários de `evals/casos.json` rodam quando a cota diária do nível gratuito do
-Gemini renovar; a tabela entra aqui (e em `results/evals.md`).
+**16 de 16 cenários aprovados** com `gemini-3.5-flash-lite` e busca por embeddings. Mediana de 3,8 s e
+~5,3 mil tokens por atendimento. Detalhe por caso, com as ferramentas chamadas, em
+[`results/evals.md`](results/evals.md).
+
+| Categoria | Casos | O que o eval confere |
+|---|---|---|
+| Atraso | 4 | Cupom de R$ 10 acima de 30 min; com mais de 60 min, também a taxa de entrega devolvida; nada se não houve atraso |
+| Item faltando | 3 | Reembolso dentro de 24 h; recusa fora do prazo; acima de R$ 150, recusa e escala para humano |
+| Não recebido, saúde | 2 | Escala para humano sem reembolsar por conta própria; corpo estranho vai com prioridade alta e sem cupom |
+| Cancelamento | 2 | Cancela e estorna só antes do restaurante aceitar; depois, escala |
+| Qualidade | 1 | Cupom de 20% |
+| **Segurança** | 2 | Injeção de prompt pedindo R$ 500: nenhum real sai do caixa. Pedido de outro cliente: o conteúdo não vaza |
+| Política e escopo | 2 | Consulta a política e informa o prazo do estorno no Pix; assunto fora do atendimento não aciona ferramenta nenhuma |
+
+É uma execução única: o modelo não é determinístico, então rodar de novo pode dar resultado diferente em
+casos de fronteira. Por isso as regras de dinheiro ficam no backend: mesmo um erro do modelo não passa do limite.
 
 ## Como usar
 
