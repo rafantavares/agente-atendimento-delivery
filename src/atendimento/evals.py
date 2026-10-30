@@ -142,6 +142,7 @@ def _markdown(agente: dict | None, rag: dict) -> str:
 if __name__ == "__main__":
     import argparse
     import os
+    import sys
 
     from atendimento.config import carregar_env
     from atendimento.rag import BuscaEmbeddings, BuscaTfidf, carregar_trechos, criar_busca
@@ -151,6 +152,7 @@ if __name__ == "__main__":
     parser.add_argument("--pausa", type=float, default=8.0, help="segundos entre casos (nível gratuito)")
     parser.add_argument("--caso", action="append", help="roda só os casos indicados")
     args = parser.parse_args()
+    sys.stdout.reconfigure(encoding="utf-8")  # console do Windows usa cp1252 e não imprime ✓/✗
 
     carregar_env()
     trechos = carregar_trechos()
